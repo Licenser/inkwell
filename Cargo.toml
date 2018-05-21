@@ -11,7 +11,7 @@ license = "Apache-2.0"
 categories = ["development-tools::ffi"]
 
 [features]
-default = []
+default = ["llvm4-0"]
 llvm3-6 = []
 llvm3-7 = []
 llvm3-8 = []
@@ -24,7 +24,7 @@ llvm6-0 = []
 either = "1.5"
 enum-methods = "0.0.8"
 libc = "*"
-llvm-sys = "60"
+llvm-sys = "40"
 
 [badges]
 travis-ci = { repository = "TheDan64/inkwell" }

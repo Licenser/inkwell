@@ -1,6 +1,6 @@
 language: rust
 
-sudo: required
+sudo: false
 cache:
   apt: true
   cargo: true

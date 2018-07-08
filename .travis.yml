@@ -3,6 +3,8 @@ language: rust
 sudo: required
 cache:
   cargo: true
+  directories:
+    - $HOME/.rustup
 
 include_base: &BASE
   addons:
